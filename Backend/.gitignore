@@ -1,0 +1,25 @@
+node_modules
+
+# MongoDB Configuration
+MONGO_URI=mongodb://127.0.0.1:27017/phonepe-BE-clone
+
+# Server Configuration
+PORT=5000
+CORS_ORIGIN=http://localhost:5000
+
+# JWT Token Configuration
+ACCESS_TOKEN_SECRET=your_super_secret_access_token_key_minimum_32_characters
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_SECRET=your_super_secret_refresh_token_key_minimum_32_characters
+REFRESH_TOKEN_EXPIRY=10d
+
+# Cloudinary Configuration (for image uploads)
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+# Database Name
+DB_NAME=phonepe-BE-clone
+
+# Node Environment
+NODE_ENV=development
